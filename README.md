@@ -3,10 +3,11 @@ TBRCircularProgressView
 
 Circular progress view similar to App Store download one
 
-Supported OS & SDK Versions
------------------------------
 
-* Earliest supported deployment target - iOS 5.0
+Screenshot
+--------------------
+![TBRCircularProgressView](https://raw.githubusercontent.com/techbrewers/TBRCircularProgressView/master/screenshot.gif)
+
 
 Installation
 -------------
