@@ -1,8 +1,9 @@
 TBRCircularProgressView
 =======================
 
-Circular progress view similar to App Store download one
+[![Build Status](https://travis-ci.org/techbrewers/TBRCircularProgressView.png)](https://travis-ci.org/techbrewers/TBRCircularProgressView)
 
+Circular progress view similar to App Store download one
 
 Screenshot
 --------------------

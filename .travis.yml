@@ -1,0 +1,3 @@
+language: objective-c
+xcode_project: Example/TBRCircularProgressViewExample.xcodeproj
+xcode_scheme: TBRCircularProgressViewExample
