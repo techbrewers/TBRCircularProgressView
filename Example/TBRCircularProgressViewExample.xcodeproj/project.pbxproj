@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFC10F351975434C00878E25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC10F341975434C00878E25 /* Foundation.framework */; };
+		BFC10F371975434C00878E25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC10F361975434C00878E25 /* CoreGraphics.framework */; };
+		BFC10F391975434C00878E25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC10F381975434C00878E25 /* UIKit.framework */; };
+		BFC10F3F1975434C00878E25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFC10F3D1975434C00878E25 /* InfoPlist.strings */; };
+		BFC10F411975434C00878E25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC10F401975434C00878E25 /* main.m */; };
+		BFC10F451975434C00878E25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC10F441975434C00878E25 /* AppDelegate.m */; };
+		BFC10F481975434C00878E25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC10F461975434C00878E25 /* Main.storyboard */; };
+		BFC10F4B1975434C00878E25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC10F4A1975434C00878E25 /* ViewController.m */; };
+		BFC10F4D1975434C00878E25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFC10F4C1975434C00878E25 /* Images.xcassets */; };
+		BFC10F541975434C00878E25 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC10F531975434C00878E25 /* XCTest.framework */; };
+		BFC10F551975434C00878E25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC10F341975434C00878E25 /* Foundation.framework */; };
+		BFC10F561975434C00878E25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFC10F381975434C00878E25 /* UIKit.framework */; };
+		BFC10F5E1975434C00878E25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFC10F5C1975434C00878E25 /* InfoPlist.strings */; };
+		BFC10F601975434C00878E25 /* TBRCircularProgressViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC10F5F1975434C00878E25 /* TBRCircularProgressViewExampleTests.m */; };
+		BFC10F6F1975439A00878E25 /* TBRCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC10F6E1975439A00878E25 /* TBRCircularProgressView.m */; };
+		BFC10F72197560B400878E25 /* TBRCircularActivityLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC10F71197560B400878E25 /* TBRCircularActivityLayer.m */; };
+		BFC10F7519756C8000878E25 /* TBRCircularProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC10F7419756C8000878E25 /* TBRCircularProgressLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFC10F571975434C00878E25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFC10F291975434C00878E25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFC10F301975434C00878E25;
+			remoteInfo = TBRCircularProgressViewExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFC10F311975434C00878E25 /* TBRCircularProgressViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBRCircularProgressViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC10F341975434C00878E25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BFC10F361975434C00878E25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BFC10F381975434C00878E25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BFC10F3C1975434C00878E25 /* TBRCircularProgressViewExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBRCircularProgressViewExample-Info.plist"; sourceTree = "<group>"; };
+		BFC10F3E1975434C00878E25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFC10F401975434C00878E25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFC10F421975434C00878E25 /* TBRCircularProgressViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TBRCircularProgressViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		BFC10F431975434C00878E25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BFC10F441975434C00878E25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BFC10F471975434C00878E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFC10F491975434C00878E25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BFC10F4A1975434C00878E25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BFC10F4C1975434C00878E25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BFC10F521975434C00878E25 /* TBRCircularProgressViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBRCircularProgressViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC10F531975434C00878E25 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BFC10F5B1975434C00878E25 /* TBRCircularProgressViewExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBRCircularProgressViewExampleTests-Info.plist"; sourceTree = "<group>"; };
+		BFC10F5D1975434C00878E25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFC10F5F1975434C00878E25 /* TBRCircularProgressViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBRCircularProgressViewExampleTests.m; sourceTree = "<group>"; };
+		BFC10F6D1975439A00878E25 /* TBRCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRCircularProgressView.h; sourceTree = "<group>"; };
+		BFC10F6E1975439A00878E25 /* TBRCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRCircularProgressView.m; sourceTree = "<group>"; };
+		BFC10F70197560B400878E25 /* TBRCircularActivityLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRCircularActivityLayer.h; sourceTree = "<group>"; };
+		BFC10F71197560B400878E25 /* TBRCircularActivityLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRCircularActivityLayer.m; sourceTree = "<group>"; };
+		BFC10F7319756C8000878E25 /* TBRCircularProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBRCircularProgressLayer.h; sourceTree = "<group>"; };
+		BFC10F7419756C8000878E25 /* TBRCircularProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBRCircularProgressLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFC10F2E1975434C00878E25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC10F371975434C00878E25 /* CoreGraphics.framework in Frameworks */,
+				BFC10F391975434C00878E25 /* UIKit.framework in Frameworks */,
+				BFC10F351975434C00878E25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC10F4F1975434C00878E25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC10F541975434C00878E25 /* XCTest.framework in Frameworks */,
+				BFC10F561975434C00878E25 /* UIKit.framework in Frameworks */,
+				BFC10F551975434C00878E25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFC10F281975434C00878E25 = {
+			isa = PBXGroup;
+			children = (
+				BFC10F3A1975434C00878E25 /* TBRCircularProgressViewExample */,
+				BFC10F591975434C00878E25 /* TBRCircularProgressViewExampleTests */,
+				BFC10F331975434C00878E25 /* Frameworks */,
+				BFC10F321975434C00878E25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFC10F321975434C00878E25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFC10F311975434C00878E25 /* TBRCircularProgressViewExample.app */,
+				BFC10F521975434C00878E25 /* TBRCircularProgressViewExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC10F331975434C00878E25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFC10F341975434C00878E25 /* Foundation.framework */,
+				BFC10F361975434C00878E25 /* CoreGraphics.framework */,
+				BFC10F381975434C00878E25 /* UIKit.framework */,
+				BFC10F531975434C00878E25 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFC10F3A1975434C00878E25 /* TBRCircularProgressViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				BFC10F431975434C00878E25 /* AppDelegate.h */,
+				BFC10F441975434C00878E25 /* AppDelegate.m */,
+				BFC10F461975434C00878E25 /* Main.storyboard */,
+				BFC10F491975434C00878E25 /* ViewController.h */,
+				BFC10F4A1975434C00878E25 /* ViewController.m */,
+				BFC10F6C1975439A00878E25 /* TBRCircularProgressView */,
+				BFC10F4C1975434C00878E25 /* Images.xcassets */,
+				BFC10F3B1975434C00878E25 /* Supporting Files */,
+			);
+			path = TBRCircularProgressViewExample;
+			sourceTree = "<group>";
+		};
+		BFC10F3B1975434C00878E25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFC10F3C1975434C00878E25 /* TBRCircularProgressViewExample-Info.plist */,
+				BFC10F3D1975434C00878E25 /* InfoPlist.strings */,
+				BFC10F401975434C00878E25 /* main.m */,
+				BFC10F421975434C00878E25 /* TBRCircularProgressViewExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFC10F591975434C00878E25 /* TBRCircularProgressViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFC10F5F1975434C00878E25 /* TBRCircularProgressViewExampleTests.m */,
+				BFC10F5A1975434C00878E25 /* Supporting Files */,
+			);
+			path = TBRCircularProgressViewExampleTests;
+			sourceTree = "<group>";
+		};
+		BFC10F5A1975434C00878E25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFC10F5B1975434C00878E25 /* TBRCircularProgressViewExampleTests-Info.plist */,
+				BFC10F5C1975434C00878E25 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFC10F6C1975439A00878E25 /* TBRCircularProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				BFC10F6D1975439A00878E25 /* TBRCircularProgressView.h */,
+				BFC10F6E1975439A00878E25 /* TBRCircularProgressView.m */,
+				BFC10F70197560B400878E25 /* TBRCircularActivityLayer.h */,
+				BFC10F71197560B400878E25 /* TBRCircularActivityLayer.m */,
+				BFC10F7319756C8000878E25 /* TBRCircularProgressLayer.h */,
+				BFC10F7419756C8000878E25 /* TBRCircularProgressLayer.m */,
+			);
+			name = TBRCircularProgressView;
+			path = ../../TBRCircularProgressView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFC10F301975434C00878E25 /* TBRCircularProgressViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC10F631975434C00878E25 /* Build configuration list for PBXNativeTarget "TBRCircularProgressViewExample" */;
+			buildPhases = (
+				BFC10F2D1975434C00878E25 /* Sources */,
+				BFC10F2E1975434C00878E25 /* Frameworks */,
+				BFC10F2F1975434C00878E25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TBRCircularProgressViewExample;
+			productName = TBRCircularProgressViewExample;
+			productReference = BFC10F311975434C00878E25 /* TBRCircularProgressViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFC10F511975434C00878E25 /* TBRCircularProgressViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC10F661975434C00878E25 /* Build configuration list for PBXNativeTarget "TBRCircularProgressViewExampleTests" */;
+			buildPhases = (
+				BFC10F4E1975434C00878E25 /* Sources */,
+				BFC10F4F1975434C00878E25 /* Frameworks */,
+				BFC10F501975434C00878E25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFC10F581975434C00878E25 /* PBXTargetDependency */,
+			);
+			name = TBRCircularProgressViewExampleTests;
+			productName = TBRCircularProgressViewExampleTests;
+			productReference = BFC10F521975434C00878E25 /* TBRCircularProgressViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFC10F291975434C00878E25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "TechBrewers LTD.";
+				TargetAttributes = {
+					BFC10F511975434C00878E25 = {
+						TestTargetID = BFC10F301975434C00878E25;
+					};
+				};
+			};
+			buildConfigurationList = BFC10F2C1975434C00878E25 /* Build configuration list for PBXProject "TBRCircularProgressViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFC10F281975434C00878E25;
+			productRefGroup = BFC10F321975434C00878E25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFC10F301975434C00878E25 /* TBRCircularProgressViewExample */,
+				BFC10F511975434C00878E25 /* TBRCircularProgressViewExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFC10F2F1975434C00878E25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC10F4D1975434C00878E25 /* Images.xcassets in Resources */,
+				BFC10F3F1975434C00878E25 /* InfoPlist.strings in Resources */,
+				BFC10F481975434C00878E25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC10F501975434C00878E25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC10F5E1975434C00878E25 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFC10F2D1975434C00878E25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC10F7519756C8000878E25 /* TBRCircularProgressLayer.m in Sources */,
+				BFC10F4B1975434C00878E25 /* ViewController.m in Sources */,
+				BFC10F72197560B400878E25 /* TBRCircularActivityLayer.m in Sources */,
+				BFC10F6F1975439A00878E25 /* TBRCircularProgressView.m in Sources */,
+				BFC10F451975434C00878E25 /* AppDelegate.m in Sources */,
+				BFC10F411975434C00878E25 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFC10F4E1975434C00878E25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC10F601975434C00878E25 /* TBRCircularProgressViewExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFC10F581975434C00878E25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFC10F301975434C00878E25 /* TBRCircularProgressViewExample */;
+			targetProxy = BFC10F571975434C00878E25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFC10F3D1975434C00878E25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC10F3E1975434C00878E25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFC10F461975434C00878E25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC10F471975434C00878E25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFC10F5C1975434C00878E25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC10F5D1975434C00878E25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFC10F611975434C00878E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BFC10F621975434C00878E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFC10F641975434C00878E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBRCircularProgressViewExample/TBRCircularProgressViewExample-Prefix.pch";
+				INFOPLIST_FILE = "TBRCircularProgressViewExample/TBRCircularProgressViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BFC10F651975434C00878E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBRCircularProgressViewExample/TBRCircularProgressViewExample-Prefix.pch";
+				INFOPLIST_FILE = "TBRCircularProgressViewExample/TBRCircularProgressViewExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BFC10F671975434C00878E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TBRCircularProgressViewExample.app/TBRCircularProgressViewExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBRCircularProgressViewExample/TBRCircularProgressViewExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TBRCircularProgressViewExampleTests/TBRCircularProgressViewExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BFC10F681975434C00878E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TBRCircularProgressViewExample.app/TBRCircularProgressViewExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBRCircularProgressViewExample/TBRCircularProgressViewExample-Prefix.pch";
+				INFOPLIST_FILE = "TBRCircularProgressViewExampleTests/TBRCircularProgressViewExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFC10F2C1975434C00878E25 /* Build configuration list for PBXProject "TBRCircularProgressViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC10F611975434C00878E25 /* Debug */,
+				BFC10F621975434C00878E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC10F631975434C00878E25 /* Build configuration list for PBXNativeTarget "TBRCircularProgressViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC10F641975434C00878E25 /* Debug */,
+				BFC10F651975434C00878E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC10F661975434C00878E25 /* Build configuration list for PBXNativeTarget "TBRCircularProgressViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC10F671975434C00878E25 /* Debug */,
+				BFC10F681975434C00878E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFC10F291975434C00878E25 /* Project object */;
+}

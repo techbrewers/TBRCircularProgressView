@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EC79FA5D-EE37-4F50-9A20-C114380F6602</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TBRCircularProgressViewExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9AE80208-8800-4A2B-AF24-ECD2FE6A05EE</key>
+		<string>https://github.com/techbrewers/TBRCircularProgressView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TBRCircularProgressViewExample/TBRCircularProgressViewExample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9AE80208-8800-4A2B-AF24-ECD2FE6A05EE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/techbrewers/TBRCircularProgressView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9AE80208-8800-4A2B-AF24-ECD2FE6A05EE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9AE80208-8800-4A2B-AF24-ECD2FE6A05EE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TBRCircularProgressView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
